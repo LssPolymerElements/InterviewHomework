@@ -1,0 +1,50 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/polymer2-ts/polymer2-ts.html">
+
+<link rel="import" href="../bower_components/paper-tabs/paper-tabs.html">
+<link rel="import" href="../bower_components/paper-tabs/paper-tab.html">
+<link rel="import" href="../bower_components/iron-pages/iron-pages.html">
+
+<dom-module id="my-app">
+
+	<template>
+		<style>
+			:host {
+
+				overflow: hidden;
+				position: relative;
+			}
+
+			paper-tabs {
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				height: 64px;
+				--paper-tabs-selection-bar-color: var(--paper-orange-300);
+				--paper-tab-ink: var(--paper-light-blue-500);
+				background-color: var(--paper-light-blue-800);
+				color: #FFF;
+			}
+
+			iron-pages {
+				padding-top: 64px;
+				@apply --layout-vertical;
+			}
+		</style>
+		<iron-pages selected="[[activePage]]" attr-for-selected="name">
+			<div name="one">Page One Placeholder</div>
+			<div name="two"> Page Two Placeholder </div>
+			<div name="results">Results Placeholder</div>
+		</iron-pages>
+
+		<paper-tabs selected="{{activePage}}" attr-for-selected="name">
+			<paper-tab name="one">PAGE ONE</paper-tab>
+			<paper-tab name="two">PAGE TWO</paper-tab>
+			<paper-tab name="results">RESULTS</paper-tab>
+		</paper-tabs>
+
+	</template>
+
+	<script src="my-app.js"></script>
+</dom-module>

@@ -1,0 +1,20 @@
+{
+  "name": "app-drawer-template",
+  "authors": [
+    "None"
+  ],
+  "private": true,
+  "dependencies": {
+    "polymer": "polymer/polymer#^2.0.0",
+    "polymer2-ts": "^1.0.0",
+    "app-layout": "PolymerElements/app-layout#^2.0.0",
+    "app-route": "polymerelements/app-route#^2.0.0",
+    "iron-flex-layout": "polymerelements/iron-flex-layout#^2.0.0",
+    "iron-pages": "PolymerElements/iron-pages#^2.0.1",
+    "iron-selector": "polymerelements/iron-selector#^2.0.0",
+    "paper-tabs": "PolymerElements/paper-tabs#^2.0.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.3.4"
+  }
+}
