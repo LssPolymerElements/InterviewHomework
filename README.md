@@ -23,7 +23,7 @@ Do not spend an excessive amount of time on the project.  If you have spent over
  - Responsive mobile / desktop design. 
  - Use [Polymer Material Inputs](https://www.webcomponents.org/author/PolymerElements) for inputs and buttons. 
  -  Page should closely follow [mockup](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view).  
-	 -  [Page 1 (see mock-up)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a1a4f1538)
+	 -  [Page 1 (see mock-up)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a2b41c7ff)
 		 - Header of the page should contain navigation for the app. Three buttons.  Page 1, Page 2, and Results.
 		 - Top half of the page is a simple example of text with an
    image. (The various font sizes and styling is to help showcase basic CSS knowledge.) 
