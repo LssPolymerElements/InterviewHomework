@@ -21,7 +21,7 @@ Do not spend an excessive amount of time on the project.  If you have spent over
 
  - Single page application. 
  - Responsive mobile / desktop design. 
- - Use [Polymer Material Inputs](https://www.webcomponents.org/author/PolymerElements) for inputs and buttons. 
+ - Use [Polymer Material Inputs](https://www.webcomponents.org/author/PolymerElements) for [inputs(https://www.webcomponents.org/search/paper-input)] and [buttons(https://www.webcomponents.org/element/PolymerElements/paper-button)] . 
  -  Page should closely follow [mockup](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view).  
 	 -  [Page 1 (see mock-up)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a2b41c7ff)
 	   - Header of the page should contain navigation for the app. Three buttons.  Page 1, Page 2, and Results.
