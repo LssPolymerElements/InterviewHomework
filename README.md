@@ -15,7 +15,7 @@
 
 Create a three page Polymer 2 web application by cloning this repo that contains the app skeleton needed to get you started. Please commit as you go and submit an emailed zipped git repository with the completed project to mike-plumb@leavitt.com.
 
-Do not spend an excessive amount of time on the project.  If you have spent over four hours in total but are not quite finished, don’t worry! Just submit what you have and we will take a look.
+Do not spend an excessive amount of time on the project.  If you have spent a significant amount of time but are not quite finished, don’t worry! Just submit what you have and we will take a look.
 
 [You can view the mockup here](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view)
 
@@ -24,18 +24,18 @@ Do not spend an excessive amount of time on the project.  If you have spent over
  - Single page application. 
  - Responsive mobile / desktop design. 
  - Use [Polymer Material Elements](https://www.webcomponents.org/author/PolymerElements) for this assignment such as:
-     - [paper-input](https://www.webcomponents.org/element/PolymerElements/paper-input)
-     - [paper-button](https://www.webcomponents.org/element/PolymerElements/paper-button)
+     - [paper-input](https://www.webcomponents.org/element/PolymerElements/paper-input).
+     - [paper-button](https://www.webcomponents.org/element/PolymerElements/paper-button).
  -  Page should closely follow [mockup](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view).  
-	 - [Page 1 (see mock-up)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a2b41c7ff)
-	     - Has calculator with two states (calculator & results)
+	 - [Page 1 (see mock-up)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a2b41c7ff).
+	     - Has calculator with two states (calculator & results).
 	     - Performs calculation based on paper-input values and then switches to the result state. 
 	     - Uses this formula to calculate the amount saved: employees * (modification percent/100) * 150
-	     - Shows amount saved as a dollar amount on the results state
+	     - Shows amount saved as a dollar amount on the results state.
 	     - The recalculate button on the results state should do these things when clicked:
 	         - a. Switch from results to the calculator state.
 	         - b. Resets the paper-input's values to 0.
-	 - [Page 2 (see-mockup)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a1a4f1538)
+	 - [Page 2 (see-mockup)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a1a4f1538).
 	     - Has calculator with the same functionality as Page 1 that should now be
    located at the top of the page. 
 	     - The amount saved from the calculator on this page should additionally be shown in the bottom text.
