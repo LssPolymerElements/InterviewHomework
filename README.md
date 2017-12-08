@@ -13,7 +13,7 @@
 
 ## Instructions: ##
 
-Create a three page Polymer 2 web application by cloning this repo that contains the app skeleton needed to get you started. Please commit as you go and submit an emailed zipped git repository with the completed project to mike-plumb@leavitt.com. Please do not publish your completed project to GitHub.
+Create a three page Polymer 2 web application by cloning this repo that contains the app skeleton needed to get you started. Please commit as you go and submit an emailed zipped git repository with the completed project to mike-plumb@leavitt.com.
 
 Do not spend an excessive amount of time on the project.  If you have spent over four hours in total but are not quite finished, don’t worry! Just submit what you have and we will take a look.
 
@@ -23,9 +23,9 @@ Do not spend an excessive amount of time on the project.  If you have spent over
 
  - Single page application. 
  - Responsive mobile / desktop design. 
- - Use [Polymer Material Elements](https://www.webcomponents.org/author/PolymerElements) for this assignment such as.
+ - Use [Polymer Material Elements](https://www.webcomponents.org/author/PolymerElements) for this assignment such as:
      - [paper-input](https://www.webcomponents.org/search/paper-input)
-     - [paper-button](https://www.webcomponents.org/element/PolymerElements/paper-button). 
+     - [paper-button](https://www.webcomponents.org/element/PolymerElements/paper-button)
  -  Page should closely follow [mockup](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view).  
 	 - [Page 1 (see mock-up)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a2b41c7ff)
 	     - Has calculator with two states (calculator & results)
@@ -34,7 +34,7 @@ Do not spend an excessive amount of time on the project.  If you have spent over
 	     - Shows amount saved as a dollar amount on the results state
 	     - The recalculate button on the results state should do these things when clicked:
 	         - a. Switch from results to the calculator state.
-	         - b. Resets the paper-inputs value's to 0.
+	         - b. Resets the paper-input's values to 0.
 	 - [Page 2 (see-mockup)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a1a4f1538)
 	     - Has calculator with the same functionality as Page 1 that should now be
    located at the top of the page. 
