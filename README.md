@@ -49,3 +49,16 @@ Do not spend an excessive amount of time on the project.  If you have spent over
 	 - On Initial Load this list should be empty.  After one calculator submit it should have one result.  After two calculator submits it should have two items in the list and so on. 
    	  -  Do not worry about persisting data on page reload
 
+# Docs
+[Polymer](https://www.polymer-project.org/2.0/docs/devguide/feature-overview)
+
+[Web Components](https://www.webcomponents.org)
+
+[Polymer Typescript](https://github.com/LssPolymerElements/polymer2-ts)
+
+[Paper Styles](https://www.webcomponents.org/element/PolymerElements/paper-styles)
+
+
+
+
+
