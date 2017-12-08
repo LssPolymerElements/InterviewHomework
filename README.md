@@ -51,8 +51,11 @@ Do not spend an excessive amount of time on the project.  If you have spent over
 
 # Docs
 [Polymer](https://www.polymer-project.org/2.0/docs/devguide/feature-overview)
+
 [Web Components](https://www.webcomponents.org)
+
 [Polymer Typescript](https://github.com/LssPolymerElements/polymer2-ts)
+
 [Paper Styles](https://www.webcomponents.org/element/PolymerElements/paper-styles)
 
 
