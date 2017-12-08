@@ -6,12 +6,13 @@
 <link rel="import" href="../bower_components/paper-tabs/paper-tab.html">
 <link rel="import" href="../bower_components/iron-pages/iron-pages.html">
 
+<link rel="import" href="./my-page-one.html">
+
 <dom-module id="my-app">
 
 	<template>
 		<style>
 			:host {
-
 				overflow: hidden;
 				position: relative;
 			}
@@ -34,8 +35,8 @@
 			}
 		</style>
 		<iron-pages selected="[[activePage]]" attr-for-selected="name">
-			<div name="one">Page One Placeholder</div>
-			<div name="two"> Page Two Placeholder </div>
+			<my-page-one name="one">Page One Placeholder</my-page-one>
+			<div name="two">Page Two Placeholder</div>
 			<div name="results">Results Placeholder</div>
 		</iron-pages>
 

@@ -1,0 +1,74 @@
+<link rel="import" href="../../bower_components/polymer/polymer.html">
+<link rel="import" href="../../bower_components/polymer2-ts/polymer2-ts.html">
+
+<link rel="import" href="../../bower_components/paper-styles/paper-styles.html">
+<link rel="import" href="../../bower_components/iron-pages/iron-pages.html">
+
+<link rel="import" href="../elements/my-calculator.html">
+
+<dom-module id="my-page-one">
+
+	<template>
+		<style>
+			:host {
+				@apply --layout-vertical;
+			}
+
+			header {
+				@apply --layout-horizontal;
+				@apply --layout-center-center;
+				min-height: 240px;
+			}
+
+			header {
+				background-color: #EBEFF2;
+			}
+
+			header-title {
+				display: block;
+				@apply --paper-font-headline;
+			}
+
+			header-container {
+				max-width: 630px;
+				padding: 16px;
+				@apply --layout-horizontal;
+			}
+
+			header-body {
+				margin-top: 16px;
+				font-size: 14px;
+			}
+
+			img {
+				height: 100px;
+				margin: 16px;
+				@apply --layout-self-center;
+			}
+
+			@media only screen and (max-width: 768px) {
+				header-body {
+					font-size: 12px;
+				}
+
+				header-title {
+					font-size: 16px;
+				}
+			}
+		</style>
+		<header>
+			<header-container>
+				<img src="/images/circleLogo.png"></img>
+				<div>
+					<header-title>WORK COMP CALCULATOR</header-title>
+					<header-body><strong>Get an idea of how much you can save using our approach. </strong>Most business owners believe that because
+						workers compensation is “legislated” they have little control over the costs. In truth, workers compensation is the
+						one insurance that can be controlled.</header-body>
+				</div>
+			</header-container>
+		</header>
+
+	</template>
+
+	<script src="my-page-one.js"></script>
+</dom-module>
