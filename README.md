@@ -13,7 +13,7 @@
 
 ## Instructions: ##
 
-Create a three page Polymer 2 web application by cloning this repo that contains the app skeleton needed to get you started. Please commit as you go and submit an emailed zipped git repository with the completed project to mike-plumb@leavitt.com. Please do not publish your completed solution to GitHub.
+Create a three page Polymer 2 web application by cloning this repo that contains the app skeleton needed to get you started. Please commit as you go and submit an emailed zipped git repository with the completed project to mike-plumb@leavitt.com. Please do not publish your completed project to GitHub.
 
 Do not spend an excessive amount of time on the project.  If you have spent over four hours in total but are not quite finished, don’t worry! Just submit what you have and we will take a look.
 
