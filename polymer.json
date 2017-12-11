@@ -1,0 +1,23 @@
+{
+  "entrypoint": "index.html",
+  "shell": "src/my-app.html",
+  "fragments": [],
+  "sources": [
+    "src/**/*",
+    "images/**/*",
+    "bower.json"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "bower_components/webcomponentsjs/webcomponents-lite.js",
+    "bower_components/fetch/fetch.js",
+    "node_modules/babel-polyfill/dist/polyfill.min.js"
+  ],
+  "lint": {
+    "rules": ["polymer-2"]
+  },
+  "builds": [{
+    "name": "es6",
+    "preset": "es6-bundled"
+  }]
+}
