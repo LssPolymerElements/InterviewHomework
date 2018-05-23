@@ -1,63 +1,37 @@
-# LSS Interview Homework Skeleton #
+## LSS Interview Homework ##
+------
+### Instructions ###
 
-## GETTING STARTED ##
-* Clone this repo
-* Install NodeJs 
-* Install polymer-cli globally `npm install -g polymer-cli` 
-* Run `npm install`
++ Please email the completed project zipped to **mike-plumb@leavitt.com**.
++ Take as little or as much time as you need.
++ Build a progressive web application that provides life insurance quotes. Please feel free to use whatever frameworks or libraries you are comfortable with. Be as creative as you would like. This is a good opportunity to showcase your skills and talents! Show us what you've got!
 
-## DEVELOPMENT ##
-* Lint the project: `npm run lint` 
-* Serve the project: `npm run serve`
-* Compile Typescript on save `npm run watch`
+------
 
-## Instructions: ##
+#### User Stories ####
 
-Create a three page Polymer 2 web application by cloning this repo that contains the app skeleton needed to get you started. Please commit as you go and submit an emailed zipped git repository with the completed project to mike-plumb@leavitt.com.
++ As a user running the application I would like to be able to enter personal information so that the quotes I receive are relevant to my age and health.
++ As a user running the application I would like to receive a list of life insurance quotes so that I can choose a life insurance plan that fits my needs.
 
-Do not spend an excessive amount of time on the project.  If you have spent a significant amount of time but are not quite finished, don’t worry! Just submit what you have and we will take a look.
+------
 
-[You can view the mockup here](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view)
+#### Acceptance Criteria ####
++ Obtains the user's full name, age, and health(poor, average, excellent).
++ Display three quotes to the user (name, premium). The quotes' premiums should be calculated from the answers to age and health.
++ Project must be able to be built on any machine with the following commands.
 
-## Requirements: ##
+```javascript
+	npm install
+	npm start
+```
 
- - Single page application. 
- - Responsive mobile / desktop design. 
- - Use [Polymer Material Elements](https://www.webcomponents.org/author/PolymerElements) for this assignment such as:
-     - [paper-input](https://www.webcomponents.org/element/PolymerElements/paper-input).
-     - [paper-button](https://www.webcomponents.org/element/PolymerElements/paper-button).
- -  Page should closely follow [mockup](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view).  
-	 - [Page 1 (see mock-up)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a2b41c7ff).
-	     - Has calculator with two states (calculator & results).
-	     - Performs calculation based on paper-input values and then switches to the result state. 
-	     - Uses this formula to calculate the amount saved: employees * (modification percent/100) * 150
-	     - Shows amount saved as a dollar amount on the results state.
-	     - The recalculate button on the results state should do these things when clicked:
-	         - a. Switch from results to the calculator state.
-	         - b. Resets the paper-input's values to 0.
-	 - [Page 2 (see-mockup)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a1a4f1538).
-	     - Has calculator with the same functionality as Page 1 that should now be
-   located at the top of the page. 
-	     - The amount saved from the calculator on this page should additionally be shown in the bottom text.
-	 - [Page 3 (see-mockup)](https://app.moqups.com/aaron@aarondrabeck.com/rekW1P2jz8/view/page/a9a81d7d8) 
-	     - This page should contain a simple list of the amounts saved from anytime a calculator on page one or page two is used.
-	     - On Initial Load this list should be empty.  After one calculator submit it should have one amount saved. After two calculator submits it should have two items in the list and so on.
-	     - This page should also recalculate and display the standard deviation of the amounts saved in the list whenever an item is added.
-   	     - Do not worry about persisting data on page reload.
-	      
-## Resources
+------
 
-[Polymer](https://www.polymer-project.org/2.0/docs/devguide/feature-overview)
+#### Bonus Criteria ####
++ Is the code documented when necessary?
++ Is the code of production quality?
++ Is the design responsive & mobile friendly?
++ Is the app written using a web framework?
++ Is the design visually appealing?
 
-[Web Components](https://www.webcomponents.org)
-
-[Polymer Typescript](https://github.com/LssPolymerElements/polymer2-ts)
-
-[Paper Styles](https://www.webcomponents.org/element/PolymerElements/paper-styles)
-
-[Flex Layout](https://elements.polymer-project.org/guides/flex-layout)
-
-
-
-
-
+_Thank you for your time! :)_
