@@ -25,13 +25,4 @@
 	npm start
 ```
 
-------
-
-#### Bonus Criteria ####
-+ Is the code documented when necessary?
-+ Is the code of production quality?
-+ Is the design responsive & mobile friendly?
-+ Is the app written using a web framework?
-+ Is the design visually appealing?
-
 _Thank you for your time! :)_
