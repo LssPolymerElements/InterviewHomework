@@ -4,7 +4,7 @@
 
 + Please email the completed project zipped to **mike-plumb@leavitt.com**.
 + Take as little or as much time as you need.
-+ Build a progressive web application that provides life insurance quotes. Please feel free to use whatever frameworks or libraries you are comfortable with. Be as creative as you would like. This is a good opportunity to showcase your skills and talents! Show us what you've got!
++ Build a progressive web application that provides fictional life insurance quotes. Please feel free to use whatever frameworks or libraries you are comfortable with. Be as creative as you would like. This is a good opportunity to showcase your skills and talents! Show us what you've got!
 
 ------
 
@@ -17,7 +17,7 @@
 
 #### Acceptance Criteria ####
 + Obtains the user's full name, age, and health(poor, average, excellent).
-+ Display three quotes to the user (name, premium). The quotes' premiums should be calculated from the answers to age and health.
++ Display three fake quotes to the user (name, premium). The quotes' premiums should be calculated from the answers to age and health.
 + Project must be able to be built on any machine with the following commands.
 
 ```javascript
